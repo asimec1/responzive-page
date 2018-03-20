@@ -76,6 +76,18 @@ p {
 	font-size: 90%;
 	font-style: italic;
 }
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 1px solid black;
+}
+#gallery figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
 figure {
 	padding: 0.5em;
 	margin: 0 1em 0.5em 1em;
@@ -136,7 +148,7 @@ footer p {
 	margin: 0.5em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 	figure {
 		width: 90%;
 		margin: 1em;
@@ -148,5 +160,17 @@ footer p {
 	}
 	.news time {
 		margin: 0 0 0 1em;
+	}
+	#gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 40%;
+		border: 1px solid black;
+	}
+	#gallery figcaption {
+		font-size: 90%;
+		height: 70px;
+		text-align: center;
 	}
 }
