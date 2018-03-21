@@ -56,6 +56,11 @@ p {
 	line-height: 1.4em;
 	letter-spacing: 1px;
 }
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
 .news img {
 	width: 12%;
 	float: left;
@@ -63,7 +68,7 @@ p {
 	margin: 0 1em 0.5em 0.5em;
 }
 .news h2 {
-	margin: 0.5em;
+	margin: 0.5em 0.7em;
 	font-size: 1.5em;
 	color: #27318b;
 }
@@ -75,6 +80,21 @@ p {
 .news time {
 	font-size: 90%;
 	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+#news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
 }
 #gallery figure {
 	padding: 0.5em;
@@ -160,6 +180,17 @@ footer p {
 	}
 	.news time {
 		margin: 0 0 0 1em;
+	}
+	#news_gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#news_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
 	}
 	#gallery figure {
 		padding: 0.5em;
